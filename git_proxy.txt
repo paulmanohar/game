@@ -1,0 +1,7 @@
+http_proxy="http://144.16.192.245:8080/";
+url = "http://github.com/paulmanohar/";
+export http_proxy
+git clone url
+git add *
+git commit -m 'done'
+git push 
